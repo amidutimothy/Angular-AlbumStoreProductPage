@@ -5,8 +5,8 @@ import { Http,Response } from '@angular/http';
 export class ProductService {
 
   // let _albumUrl:string = "../assets/album.json";
-  constructor(private _http: Http) { 
-    let _albumUrl:string = "../assets/album.json"
+  constructor(private _http: Http,private _albumUrl:string) { 
+    this. _albumUrl = "../assets/album.json"
   }
 
 }
